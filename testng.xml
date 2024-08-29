@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2"
+          preserve-order="true"
+          name="D:/Automation Code/UI_Automation/Selenium01">
+        <classes>
+            <class name="com.selenium.start.Selenium01">
+                <methods>
+                    <include name="positiveScenario"/>
+                </methods>
+            </class>
+            <class name="com.selenium.start.Selenium02">
+                <methods>
+                    <include name="NegativeTest"/>
+                    <include name="positiveTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test></suite>
